@@ -12,6 +12,8 @@
 		BF63F4851D2FEDEB001424C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF63F4831D2FEDEB001424C6 /* Main.storyboard */; };
 		BF63F4871D2FEDEB001424C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF63F4861D2FEDEB001424C6 /* Assets.xcassets */; };
 		BF63F48A1D2FEDEB001424C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF63F4881D2FEDEB001424C6 /* LaunchScreen.storyboard */; };
+		BF63F4921D2FEEA0001424C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF63F4911D2FEEA0001424C6 /* CoreLocation.framework */; };
+		BF63F4941D2FEF7D001424C6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63F4931D2FEF7D001424C6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF63F4861D2FEDEB001424C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF63F4891D2FEDEB001424C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF63F48B1D2FEDEB001424C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF63F4911D2FEEA0001424C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BF63F4931D2FEF7D001424C6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF63F4921D2FEEA0001424C6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,7 @@
 		BF63F4731D2FEDEB001424C6 = {
 			isa = PBXGroup;
 			children = (
+				BF63F4911D2FEEA0001424C6 /* CoreLocation.framework */,
 				BF63F47E1D2FEDEB001424C6 /* opet moje lokacije */,
 				BF63F47D1D2FEDEB001424C6 /* Products */,
 			);
@@ -57,6 +63,7 @@
 				BF63F47F1D2FEDEB001424C6 /* AppDelegate.swift */,
 				BF63F4811D2FEDEB001424C6 /* ViewController.swift */,
 				BF63F4831D2FEDEB001424C6 /* Main.storyboard */,
+				BF63F4931D2FEF7D001424C6 /* TableViewController.swift */,
 				BF63F4861D2FEDEB001424C6 /* Assets.xcassets */,
 				BF63F4881D2FEDEB001424C6 /* LaunchScreen.storyboard */,
 				BF63F48B1D2FEDEB001424C6 /* Info.plist */,
@@ -96,6 +103,7 @@
 				TargetAttributes = {
 					BF63F47B1D2FEDEB001424C6 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -136,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF63F4821D2FEDEB001424C6 /* ViewController.swift in Sources */,
+				BF63F4941D2FEF7D001424C6 /* TableViewController.swift in Sources */,
 				BF63F4801D2FEDEB001424C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +264,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.opet-moje-lokacije";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vuk.com.opet-moje-lokacije";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +299,7 @@
 				BF63F4901D2FEDEB001424C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
